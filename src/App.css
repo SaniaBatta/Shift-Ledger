@@ -1,0 +1,87 @@
+.shift-ledger{
+  max-width: 860px;
+  margin: 0 auto;
+  padding: 2rem 1rem;
+  text-align: left;
+  color:#f4f6fa;
+}
+
+.shift-ledger h1{
+  margin: 0 0 1.25rem;
+  font-size: clamp(2rem,5vw, 3rem);
+}
+
+.shift-form,
+.shift-list li{
+  background: #232630;
+  border: 1px solid #3a4050;
+  border-radius: 12px;
+  padding: 1rem;
+}
+
+.shift-form{
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(130px, 1fr));
+  gap:0.75rem;
+  align-items: end;
+}
+
+.shift-ledger label{
+  display: grid;
+  gap:0.35rem;
+  font-size: 0.9 rem;
+}
+
+.shift-ledger input, 
+.shift-ledger button{
+  box-sizing: border-box;
+  min-width: 0;
+  font:inherit;
+  padding: 0.55rem 0.7 rem;
+  border: 1px solid #51596b;
+  border-radius: 8px;
+}
+
+.shift-ledger input{
+  background: #171920;
+  color:inherit;
+  color-scheme: dark;
+}
+
+.shift-ledger input[type='number']{
+  width: 8rem;
+}
+
+.shift-ledger button{
+  cursor: pointer;
+}
+
+.shift-form button{
+  background: #b8c7ff;
+  color: #18213d;
+  font-weight: 600;
+}
+
+.shift-list{
+  list-style: none;
+  padding: 0;
+  display: grid;
+  gap:0.6rem,
+}
+
+.shift-list li{
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap:0.75rem;
+}
+
+.limit-status{
+  color:#a6e4be;
+  font-weight: 600;
+}
+
+.limit-status.over-limit{
+  color:#ffb4ab;
+}
