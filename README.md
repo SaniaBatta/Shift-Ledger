@@ -1,5 +1,7 @@
 # ShiftLedger
 [Try the live demo](https://saniabatta.github.io/Shift-Ledger/)
+
+
 ShiftLedger is a React and TypeScript app for tracking scheduled hours across
 multiple jobs. It totals shifts for the current Monday–Sunday week and shows
 how much time remains under a configurable weekly limit.
